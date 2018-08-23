@@ -1,22 +1,22 @@
 {
-  "name": "semantic-release-docker",
-  "description": "Set of semantic-release plugins to publish to docker hub",
+  "name": "semantic-release-gitlab-registry",
+  "description": "Set of semantic-release plugins to publish to gitlab docker registry",
   "version": "0.0.0-development",
   "engines": {
     "node": ">=8"
   },
-  "author": "Felix Becker",
+  "author": "Leonardo Gatica <lgatica@protonmail.com> (https://about.me/lgatica)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/felixfbecker/semantic-release-docker.git"
+    "url": "https://github.com/lgaticaq/semantic-release-gitlab-registry.git"
   },
   "bugs": {
-    "url": "https://github.com/felixfbecker/semantic-release-docker/issues"
+    "url": "https://github.com/lgaticaq/semantic-release-gitlab-registry/issues"
   },
-  "homepage": "https://github.com/felixfbecker/semantic-release-docker#readme",
+  "homepage": "https://github.com/lgaticaq/semantic-release-gitlab-registry#readme",
   "keywords": [
     "docker",
-    "hub",
+    "gitlab",
     "publish",
     "push",
     "semantic-release",
