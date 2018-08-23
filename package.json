@@ -37,6 +37,9 @@
     "execa": "^0.10.0"
   },
   "devDependencies": {
+    "@semantic-release/git": "^7.0.1",
+    "@semantic-release/github": "^5.0.2",
+    "@semantic-release/npm": "^5.0.2",
     "cz-conventional-changelog": "^2.0.0",
     "eslint": "^4.11.0",
     "eslint-config-prettier": "^2.5.0",
@@ -47,7 +50,7 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "prettier": "1.12.1",
-    "semantic-release": "^15.4.1",
+    "semantic-release": "^15.9.9",
     "validate-commit-msg": "^2.14.0"
   },
   "peerDependencies": {
@@ -80,5 +83,22 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "release": {
+    "verifyConditions": [
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ],
+    "prepare": [
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "publish": [
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ],
+    "success": false,
+    "fail": false
   }
 }
