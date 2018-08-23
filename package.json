@@ -1,7 +1,7 @@
 {
   "name": "semantic-release-gitlab-registry",
   "description": "Set of semantic-release plugins to publish to gitlab docker registry",
-  "version": "0.0.0-development",
+  "version": "2.2.0",
   "engines": {
     "node": ">=8"
   },
