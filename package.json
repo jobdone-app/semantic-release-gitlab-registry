@@ -25,7 +25,8 @@
   "scripts": {
     "lint": "eslint lib index.js",
     "prettier": "prettier --write --list-different '**/*.js?(on)'",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "config": {
     "commitizen": {
@@ -51,7 +52,8 @@
     "eslint-plugin-standard": "^3.0.1",
     "prettier": "1.12.1",
     "semantic-release": "^15.9.9",
-    "validate-commit-msg": "^2.14.0"
+    "validate-commit-msg": "^2.14.0",
+    "travis-deploy-once": "^5.0.2"
   },
   "peerDependencies": {
     "semantic-release": ">=11.0.0 <16.0.0"
