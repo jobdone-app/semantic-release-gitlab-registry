@@ -1,14 +1,12 @@
 # semantic-release-gitlab-registry
 
-[![npm](https://img.shields.io/npm/v/semantic-release-gitlab-registry.svg)](https://www.npmjs.com/package/lgaticaq/semantic-release-gitlab-registry)
-[![build](https://img.shields.io/travis/lgaticaq/semantic-release-gitlab-registry.svg)](https://travis-ci.org/lgaticaq/semantic-release-gitlab-registry)
-[![downloads](https://img.shields.io/npm/dt/semantic-release-gitlab-registry.svg)](https://www.npmjs.com/package/semantic-release-gitlab-registry)
-[![dependencies](https://img.shields.io/david/lgaticaq/semantic-release-gitlab-registry.svg)](https://david-dm.org/lgaticaq/semantic-release-gitlab-registry)
-[![peerDependencies](https://david-dm.org/lgaticaq/semantic-release-gitlab-registry/peer-status.svg)](https://david-dm.org/lgaticaq/semantic-release-gitlab-registry?type=peer)
-[![Greenkeeper](https://badges.greenkeeper.io/lgaticaq/semantic-release-gitlab-registry.svg)](https://greenkeeper.io/)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![npm version](https://img.shields.io/npm/v/semantic-release-gitlab-registry.svg)](https://www.npmjs.com/package/semantic-release-gitlab-registry)
+[![npm downloads](https://img.shields.io/npm/dm/semantic-release-gitlab-registry.svg)](https://www.npmjs.com/package/semantic-release-gitlab-registry)
+[![Build Status](https://travis-ci.org/lgaticaq/semantic-release-gitlab-registry.svg?branch=master)](https://travis-ci.org/lgaticaq/semantic-release-gitlab-registry)
+[![dependencies Status](https://img.shields.io/david/lgaticaq/semantic-release-gitlab-registry/status.svg)](https://david-dm.org/lgaticaq/semantic-release-gitlab-registry)
+[![devDependencies Status](https://img.shields.io/david/lgaticaq/semantic-release-gitlab-registry/dev-status.svg)](https://david-dm.org/lgaticaq/semantic-release-gitlab-registry?type=dev)
+[![peerDependencies Status](https://img.shields.io/david/lgaticaq/semantic-release-gitlab-registry/peer-status.svg)](https://david-dm.org/lgaticaq/semantic-release-gitlab-registry?type=peer)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![license](https://img.shields.io/npm/l/semantic-release-gitlab-registry.svg)](https://github.com/lgaticaq/semantic-release-gitlab-registry/blob/master/LICENSE)
 
 Set of [semantic-release](https://github.com/semantic-release/semantic-release) plugins for publishing a docker image to [GitLab Container Registry](https://docs.gitlab.com/ce/user/project/container_registry.html).
 
