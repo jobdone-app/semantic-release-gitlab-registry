@@ -42,6 +42,7 @@
     "@semantic-release/git": "7.0.8",
     "@semantic-release/github": "5.2.10",
     "@semantic-release/npm": "5.1.4",
+    "cz-conventional-changelog": "3.1.0",
     "eslint": "5.12.1",
     "eslint-config-jsdoc-strict": "2.0.0",
     "eslint-config-standard": "12.0.0",
@@ -80,6 +81,7 @@
   },
   "husky": {
     "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
@@ -111,5 +113,10 @@
     "extends": [
       "config:js-lib"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
