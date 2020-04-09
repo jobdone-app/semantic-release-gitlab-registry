@@ -12,8 +12,7 @@ Set of [semantic-release](https://github.com/semantic-release/semantic-release) 
   "release": {
     "verifyConditions": "semantic-release-gitlab-registry",
     "publish": {
-      "path": "semantic-release-gitlab-registry",
-      "name": "username/imagename"
+      "semantic-release-gitlab-registry"
     }
   }
 }
@@ -27,7 +26,7 @@ Verify that all needed configuration is present and login to the GitLab Containe
 
 ### `publish`
 
-Tag the image with the new version, push it to GitLab Container Registry and update the `latest` tag.
+Tag the image with the new version(s), push it to GitLab Container Registry and update the `latest` if it's a production release.
 
 ## Example .gitlab-ci.yml
 
