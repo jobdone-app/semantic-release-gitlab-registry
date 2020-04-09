@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint . --fix",
     "format": "prettier-standard 'index.js' 'lib/**/*.js'",
-    "commit": "commit"
+    "commit": "git-cz"
   },
   "engines": {
     "node": ">=8"
@@ -116,7 +116,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "cz-conventional-changelog"
     }
   }
 }
